@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_apisix_ingress_controller_1695760125497-push-trigger-input-set
+  identifier: Build_apisix_ingress_controller_1695760125497pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_apisix_ingress_controller_1695760125497
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
